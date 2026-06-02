@@ -96,20 +96,12 @@ Real-data CER by WPM:
 ```text
 .
 ├── data/
-│   ├── synthetic_realistic_v1/
-│   ├── real_clean/
-│   └── annotations/
+│   ├── simple_data  
 ├── models/
-│   ├── model_synthetic_ctc_best.pt
-│   └── model_real_finetuned_best.pt
+│   ├── model_final.pt
 ├── src/
-│   ├── preprocess.py
-│   ├── dataset.py
-│   ├── model.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── infer.py
 ├── notebooks/
+├── train
 ├── requirements.txt
 └── README.md
 ```
